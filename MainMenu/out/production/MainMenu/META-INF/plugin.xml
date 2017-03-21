@@ -1,6 +1,6 @@
 <idea-plugin version="2">
     <id>com.athou.plugin.menu</id>
-    <name>Test Plugin Menu</name>
+    <name>PluginMenu</name>
     <version>1.0</version>
     <vendor email="cai353974361@163.com" url="https://github.com/CzwAthou">Athou</vendor>
 
