@@ -13,7 +13,7 @@ some demo show intellij plugin
 
 ##MethdMask
 
-  [Download](https://github.com/CzwAthou/PluginDemo/blob/master/MethodMask/MethodMask.jar "MethodMask.jar")
+  [Download](https://github.com/CzwAthou/PluginDemo/raw/master/MethodMask/MethodMask.jar)
 
   when your method mark an Annotation with  [DangerousMethod.java](./MethodMask/DangerousMethod.java "DangerousMethod.java") and Anywhere you call this method, will tips you this method is dangerous, and on left wiondow will show an error icon! 
 
@@ -25,7 +25,7 @@ some demo show intellij plugin
 
 ###NameConvert
 
-  [Download](https://github.com/CzwAthou/PluginDemo/blob/master/NameConvert/NameConvert.jar "NameConvert.jar")
+  [Download](https://github.com/CzwAthou/PluginDemo/raw/master/NameConvert/NameConvert.jar)
 
   1, this plugin will help you format your field! When you press SHIFT+I, it will format your select text like this:
 
