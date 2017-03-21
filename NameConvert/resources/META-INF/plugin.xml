@@ -26,14 +26,19 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <applicationConfigurable instance="com.athou.plugin.translate.settings.SettingsUI"/>
+        <applicationConfigurable instance="com.athou.plugin.nameconvert.settings.SettingsUI"/>
     </extensions>
 
     <actions>
         <!-- Add your actions here -->
-        <action id="com.athou.plugin.translate.NameConvert.ID" class="com.athou.plugin.translate.NameConvert"
+        <action id="com.athou.plugin.nameconvert.NameConvert.ID" class="com.athou.plugin.nameconvert.NameConvert"
                 text="NameConvert">
             <add-to-group group-id="EditMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift I"/>
+        </action>
+        <action id="ECTranslation" class="com.athou.plugin.translate.ECTranslation" text="Translate">
+            <add-to-group group-id="EditMenu" anchor="first"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="shift T"/>
         </action>
     </actions>
