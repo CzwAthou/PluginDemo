@@ -21,7 +21,17 @@ some demo show intellij plugin
   效果图：
 
   ![maskmethod](./MethodMask/maskmethod.png)
+
+###EasyTools
  
+  [Download](https://github.com/CzwAthou/PluginDemo/raw/master/EasyTools/EasyTools.jar)
+
+  this tool contains UUID creater , Base64 converter and Time converter. They may help you!!!
+
+ 
+  效果图：
+
+  ![EasyTools](./EasyTools/easy_tools_shot.png)
 
 ###NameConvert
 
