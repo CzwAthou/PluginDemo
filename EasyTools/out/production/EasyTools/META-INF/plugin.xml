@@ -1,11 +1,11 @@
 <idea-plugin version="2">
-    <id>com.athou.plugin.nameconvert</id>
-    <name>NameConvert</name>
+    <id>com.athou.plugin.EazyTools</id>
+    <name>EazyTools</name>
     <version>1.0</version>
     <vendor email="cai353974361@163.com" url="https://github.com/CzwAthou">Athou</vendor>
 
     <description><![CDATA[
-      when you input chinese, the plugin will help you translate to english and the plugin will auto format the name to Camel-Case.<br>
+      this tool caontains UUID creater , Base64 converter and Time converter.<br>
       <em>most HTML tags may be used</em>
     ]]></description>
 
@@ -26,22 +26,13 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <applicationConfigurable instance="com.athou.plugin.nameconvert.settings.SettingsUI"/>
     </extensions>
 
     <actions>
         <!-- Add your actions here -->
-        <action id="com.athou.plugin.nameconvert.NameConvert.ID" class="com.athou.plugin.nameconvert.NameConvert"
-                text="NameConvert">
-            <add-to-group group-id="EditMenu" anchor="first"/>
-            <keyboard-shortcut keymap="$default" first-keystroke="shift I"/>
-        </action>
-        <action id="com.athou.plugin.translate..ECTranslation.ID" class="com.athou.plugin.translate.ECTranslation"
-                text="Translate">
-            <add-to-group group-id="EditMenu" anchor="first"/>
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-            <keyboard-shortcut keymap="$default" first-keystroke="shift T"/>
+        <action class="com.athou.plugin.EasyTools" id="com.athou.plugin.EasyTools.ID" text="EasyTools">
+            <add-to-group group-id="ToolsMenu" anchor="first"></add-to-group>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift E"/>
         </action>
     </actions>
-
 </idea-plugin>
