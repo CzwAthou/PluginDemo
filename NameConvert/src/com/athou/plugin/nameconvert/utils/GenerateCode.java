@@ -1,12 +1,11 @@
 package com.athou.plugin.nameconvert.utils;
 
-
 import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by Roy on 2016/7/7.
+ * Created by athou on 2017/3/14.
  */
 public class GenerateCode {
     public static String[] settingArray;

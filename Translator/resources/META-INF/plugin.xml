@@ -1,0 +1,40 @@
+<idea-plugin>
+  <id>com.didi.global.idea.translator</id>
+  <name>DTranslator</name>
+  <version>1.0</version>
+  <vendor email="caizhaowei@didiglobal.com" url="http://www.didi.com">DidiChuXing</vendor>
+
+  <description><![CDATA[
+      This plugin will help you translate foreigner language into Chinese.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Plugin Version 1.0.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+<!--    <applicationConfigurable instance="com.didi.global.idea.translator.SettingsUI"/>-->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="com.didi.global.idea.translator.ECTranslation.ID" class="com.didi.global.idea.translator.ECTranslation"
+            text="Translate">
+      <add-to-group group-id="EditMenu" anchor="first"/>
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift T"/>
+    </action>
+  </actions>
+
+</idea-plugin>

@@ -3,7 +3,7 @@ package com.athou.plugin.nameconvert.utils;
 import com.intellij.ide.util.PropertiesComponent;
 
 /**
- * Created by Roy on 2016/7/8.
+ * Created by athou on 2017/3/14.
  */
 public class PropertiesUtil {
 

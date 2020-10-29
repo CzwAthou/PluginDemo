@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MethodMask">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MethodMask.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

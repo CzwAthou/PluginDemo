@@ -36,11 +36,6 @@
             <add-to-group group-id="EditMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="shift I"/>
         </action>
-        <action id="ECTranslation" class="com.athou.plugin.translate.ECTranslation" text="Translate">
-            <add-to-group group-id="EditMenu" anchor="first"/>
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-            <keyboard-shortcut keymap="$default" first-keystroke="shift T"/>
-        </action>
     </actions>
 
 </idea-plugin>

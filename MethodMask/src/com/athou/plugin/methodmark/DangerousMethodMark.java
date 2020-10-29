@@ -1,4 +1,4 @@
-package com.athou.plugin.methodmark;
+package src.com.athou.plugin.methodmark;
 
 import com.intellij.codeInsight.daemon.LineMarkerInfo;
 import com.intellij.codeInsight.daemon.LineMarkerProvider;
@@ -15,7 +15,7 @@ import static com.intellij.codeHighlighting.Pass.UPDATE_ALL;
 import static com.intellij.openapi.editor.markup.GutterIconRenderer.Alignment.LEFT;
 
 /**
- *  prompt the method is dangerous with an icon on left of the window
+ * prompt the method is dangerous with an icon on left of the window
  * Created by cai on 2017/3/14.
  */
 public class DangerousMethodMark implements LineMarkerProvider {

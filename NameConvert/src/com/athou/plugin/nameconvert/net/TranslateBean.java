@@ -1,6 +1,7 @@
 package com.athou.plugin.nameconvert.net;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by athou on 2017/3/14.
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 public class TranslateBean {
     private String query;
     private int errorCode;
-    private ArrayList<String> translation;
+    private List<String> translation;
 
     public String getQuery() {
         return query;
@@ -26,7 +27,7 @@ public class TranslateBean {
         this.errorCode = errorCode;
     }
 
-    public ArrayList<String> getTranslation() {
+    public List<String> getTranslation() {
         return translation;
     }
 
